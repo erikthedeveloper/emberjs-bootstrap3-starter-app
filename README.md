@@ -1,8 +1,31 @@
-# Temp-ember
+## A Simple Ember.js Example App w/ Twitter Bootstrap
 
-This README outlines the details of collaborating on this Ember application.
+* Bootstrap via Bower package `bootstrap-sass-official`
+* Sass via `broccoli-sass`
+* Some minor configuration and file generation...
 
-A short introduction of this app could easily go here.
+### Some Notes
+
+- Override Bootstrap variables as needed in `app/styles/bootstrap_variables.scss`
+- Bootstrap (SCSS) imported via `app/styles/bootstrap_imports.scss`
+- Take note of the minor modifications to `Brocfile.js`
+
+### Quick Start
+
+```shell
+git clone git@github.com:erikthedeveloper/emberjs-bootstrap3-starter-app.git MyEmberApp
+cd MyEmberApp
+git checkout -b feature/my_first_feature
+npm install
+bower install
+ember server
+```
+
+Now you should be able to browse to: [http://localhost:4200](http://localhost:4200) and be up and running with Ember.js and Bootstrap 3!
+
+It should look a bit like this:
+
+![](https://cloud.githubusercontent.com/assets/1240178/5063715/e19a5b76-6dae-11e4-86cc-d32bc233908d.png)
 
 ## Prerequisites
 
