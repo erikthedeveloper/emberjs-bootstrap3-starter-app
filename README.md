@@ -6,6 +6,7 @@
 
 ### Some Notes
 
+- Possibly useful explanation: [Accompanying Blog Post](http://erikaybar.name/ember-js-bootstrap-sass-and-ember-cli-quick-start/)
 - Override Bootstrap variables as needed in `app/styles/bootstrap_variables.scss`
 - Bootstrap (SCSS) imported via `app/styles/bootstrap_imports.scss`
 - Take note of the minor modifications to `Brocfile.js`
